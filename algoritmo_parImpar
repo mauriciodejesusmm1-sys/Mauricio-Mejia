@@ -1,0 +1,11 @@
+Algoritmo parImpar
+	Definir n Como Entero
+	Escribir "Ingrese Numero a evaluar:"; Leer numero1
+	si n % 2 = Entones
+	Escribir "N es par"
+	SiNo
+	Escribir "N es impar"
+	Finsi 
+	FinAlgoritmo
+	
+
