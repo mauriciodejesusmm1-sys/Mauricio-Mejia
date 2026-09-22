@@ -1,0 +1,7 @@
+using system;
+publc class HelloWorld
+// utiliza un ciclo for para mostrar los numeros del 1 a 100
+public static void Main(string args)
+for (int i = 1; <= 100;i += 2){
+    Console.Write(i++);
+    console.Write(i);
