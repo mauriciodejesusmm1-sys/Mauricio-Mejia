@@ -1,0 +1,21 @@
+void main :(
+// crea un programa que muestre un menu con 3 opciones y ejecute
+    //una accion dependiendo  de la opcion seleccionado
+ public static void main(string[] args){
+console.WriteLine("MENU");
+Console.WriteLine("1.saludar");
+console.WriteLine("2.Mostrar fecha");
+conosle.WriteLine("Seleccione una opcion");
+int opcion = Convert.ToInt32(Conosle.ReadLine)();
+switch (opcion){
+    case 1:
+    console.WriteLine("Hola Bienvenido");
+    Break;
+    case 2:
+    console:writeLine("La fecha actual es :"+ Datetime.now);
+    break;
+    case 3:    Console.WriteLine("Programa Finalido!!!");
+    break:
+        default:
+    console.WriteLine("Opcion no valida!!");
+    break;
